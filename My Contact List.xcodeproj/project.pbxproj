@@ -20,6 +20,8 @@
 		589B2BE41E30100700176B1D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B2BE31E30100700176B1D /* MapViewController.swift */; };
 		589B2BE71E31314B00176B1D /* MyContactListModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 589B2BE51E31314B00176B1D /* MyContactListModel.xcdatamodeld */; };
 		830DE9532267FA7100B76CFE /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830DE9522267FA7100B76CFE /* ContactsTableViewController.swift */; };
+		83110FCC2279745C00DD1991 /* MapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83110FCB2279745C00DD1991 /* MapPoint.swift */; };
+		83F97C4722792D9700FFC727 /* LocationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F97C4622792D9700FFC727 /* LocationDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		589B2BE31E30100700176B1D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		589B2BE61E31314B00176B1D /* MyContactListModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyContactListModel.xcdatamodel; sourceTree = "<group>"; };
 		830DE9522267FA7100B76CFE /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		83110FCB2279745C00DD1991 /* MapPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPoint.swift; sourceTree = "<group>"; };
+		83F97C4622792D9700FFC727 /* LocationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				589B2BAF1E300C6100176B1D /* AppDelegate.swift */,
 				589B2BE51E31314B00176B1D /* MyContactListModel.xcdatamodeld */,
 				589B2BB51E300C6100176B1D /* Main.storyboard */,
+				83110FCB2279745C00DD1991 /* MapPoint.swift */,
+				83F97C4622792D9700FFC727 /* LocationDemoViewController.swift */,
 				830DE9522267FA7100B76CFE /* ContactsTableViewController.swift */,
 				589B2BB81E300C6100176B1D /* Assets.xcassets */,
 				589B2BBA1E300C6100176B1D /* LaunchScreen.storyboard */,
@@ -211,6 +217,7 @@
 				TargetAttributes = {
 					589B2BAB1E300C6100176B1D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H637HJ39FJ;
 						ProvisioningStyle = Automatic;
 					};
 					589B2BC11E300C6200176B1D = {
@@ -281,8 +288,10 @@
 				589B2BE01E300FED00176B1D /* ContactsViewController.swift in Sources */,
 				589B2BB01E300C6100176B1D /* AppDelegate.swift in Sources */,
 				589B2BE21E300FFF00176B1D /* SettingsViewController.swift in Sources */,
+				83F97C4722792D9700FFC727 /* LocationDemoViewController.swift in Sources */,
 				589384961E316AF800CA937A /* Constants.swift in Sources */,
 				589384941E315B2500CA937A /* DateViewController.swift in Sources */,
+				83110FCC2279745C00DD1991 /* MapPoint.swift in Sources */,
 				830DE9532267FA7100B76CFE /* ContactsTableViewController.swift in Sources */,
 				589B2BE71E31314B00176B1D /* MyContactListModel.xcdatamodeld in Sources */,
 			);
@@ -452,9 +461,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H637HJ39FJ;
 				INFOPLIST_FILE = "My Contact List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lma.company.com.My-Contact-List";
+				PRODUCT_BUNDLE_IDENTIFIER = iOSContactList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -464,9 +474,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H637HJ39FJ;
 				INFOPLIST_FILE = "My Contact List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lma.company.com.My-Contact-List";
+				PRODUCT_BUNDLE_IDENTIFIER = iOSContactList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

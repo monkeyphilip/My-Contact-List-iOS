@@ -14,6 +14,7 @@ class SettingsViewController: UIViewController, UIPickerViewDataSource, UIPicker
     
     @IBOutlet weak var pckSortField: UIPickerView!
     @IBOutlet weak var swAscending: UISwitch!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
